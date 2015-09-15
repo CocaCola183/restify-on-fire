@@ -12,6 +12,6 @@
     "color-journal": "0.0.1",
     "req-param-collector": "0.0.0",
     "restify": "^4.0.2",
-    "restify-http-log": "0.0.0"
+    "restify-http-log": "0.0.1"
   }
 }

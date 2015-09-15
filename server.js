@@ -42,7 +42,7 @@ server.use(restify.bodyParser({
 server.use(req_param_collector(['params', 'body', 'query', 'context']));
 
 /*for http log*/
-server.use(http_log);
+server.pre(http_log());
 
 /*router*/
 require('./routes/index.js');
